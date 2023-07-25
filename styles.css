@@ -1,0 +1,31 @@
+/* Aplicación de CSS3 y sus propiedades/*/
+
+
+div {
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+#caja1 {
+    background: -webkit-radial-gradient(center, red 20%, green, blue); /* Setienen que colocar solo background sin el color para poder aplicar la propiedad /*/
+}                                                             /* se puede poner porcentajes seguids del color para asignar la porción que ocupa del espacio como color lleno /*/        
+                                                               /* como tambine un tercer color o cuarto/*/                       
+#caja2 {
+    background-color: pink;
+    border-radius: 10px 30px 15px 50px;      /* se puede poner 1 valor, dos valores y 4 valores/*/
+    border: 2px red solid; /* para el vorde se tiene que colocar el grosor, color y tipo/*/
+}
+
+/*Para el caso de poner dos valores, inicia en la esquina superior derecha y va en sentido horario. Misma orientación para 4 valores/*/
+
+#caja4 {
+    background: url(lorikeet.jpg) no-repeat bottom left, url(iguana.gif), url(verde.jpg);
+}
+
+#caja3 {
+    border: 30px solid transparent;
+    border-image: url(sello.png) 20 20 round;  /* valores que se pueden colocar para editar la imagen: repeat, stretch o round/*/
+}
